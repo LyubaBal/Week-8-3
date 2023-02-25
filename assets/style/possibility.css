@@ -1,0 +1,95 @@
+.main__possibility {
+    display: grid;
+    grid-area: main;
+    grid-template-rows: 13vh repeat(3, auto);
+    grid-template-columns: 10vh 1fr 1fr 1fr;
+}
+
+.main__possibility__title {
+    grid-row: 1/2;
+    grid-column: 2/5;
+    margin-left: 7vh;
+}
+
+.possibility__title {
+    font-family: 'introD';
+    font-weight: 400;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+.main__possibility__block1 {
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+.main__possibility__block2 {
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+
+.main__possibility__block3 {
+    grid-row: 2/3;
+    grid-column: 4/5;
+}
+
+.main__possibility__block4 {
+    grid-row: 3/4;
+    grid-column: 2/3;
+    margin-top: -1vh;
+    margin-left: -2vh;
+}
+
+.main__possibility__block5 {
+    grid-row: 3/4;
+    grid-column: 3/4;
+    margin-top: -1vh;
+}
+
+.main__possibility__block6 {
+    grid-row: 3/4;
+    grid-column: 4/5;
+    margin-top: -1vh;
+    background-image: url('/assets/possibility_img/3-1.jpg');
+    max-height: 27vh;
+}
+
+.block6__title {
+    text-transform: uppercase;
+    color: white;
+    font-family: 'introD';
+    margin-top: 4.5vh;
+    margin-left: 3vh;
+}
+
+.main__nav {
+    display: grid;
+    grid-column: 1/5;
+    grid-row: 4/5;
+    list-style: none;
+    margin-top: 8vh;
+    margin-left: 9vh;
+    min-height: 20vh;
+    align-content: center;
+}
+
+.main__menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.main__menu li {
+    display: flex;
+    text-decoration: none;
+    height: 10vh;
+}
+
+.main__menu-item-1 {
+    font-family: 'roboto';
+    font-weight: 400;
+    font-size: 1.3em;
+    text-decoration: none;
+    text-transform: none;
+    color: rgb(20, 17, 21);
+    margin-right: 4vh;
+}
